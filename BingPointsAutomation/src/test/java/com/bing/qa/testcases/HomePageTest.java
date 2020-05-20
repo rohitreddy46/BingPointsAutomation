@@ -34,6 +34,7 @@ public class HomePageTest extends TestBase{
 	@Test(priority =1)
 	public void HomePage_Test() throws InterruptedException {
 		Thread.sleep(3000);
+		
 		loginpage = homepage.signin();
 	}
 	
