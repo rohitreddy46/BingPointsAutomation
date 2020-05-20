@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Bing points Application Test Automation Test Suite" duration-ms="34460" started-at="2020-05-19T23:07:00 IST" finished-at="2020-05-19T23:07:34 IST">
+    <groups>
+    </groups>
+    <test name="Bing points App Test Cases" duration-ms="34460" started-at="2020-05-19T23:07:00 IST" finished-at="2020-05-19T23:07:34 IST">
+      <class name="com.bing.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bing.qa.testcases.LoginPageTest@2833cc44]" name="setup" is-config="true" duration-ms="13009" started-at="2020-05-19T23:07:14 IST" finished-at="2020-05-19T23:07:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.bing.qa.testcases.LoginPageTest@2833cc44]" name="LoginTest" duration-ms="7508" started-at="2020-05-19T23:07:27 IST" finished-at="2020-05-19T23:07:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+      </class> <!-- com.bing.qa.testcases.LoginPageTest -->
+      <class name="com.bing.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bing.qa.testcases.HomePageTest@3712b94]" name="setup" is-config="true" duration-ms="10780" started-at="2020-05-19T23:07:00 IST" finished-at="2020-05-19T23:07:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="HomePage_Test()[pri:1, instance:com.bing.qa.testcases.HomePageTest@3712b94]" name="HomePage_Test" duration-ms="3129" started-at="2020-05-19T23:07:11 IST" finished-at="2020-05-19T23:07:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage_Test -->
+      </class> <!-- com.bing.qa.testcases.HomePageTest -->
+    </test> <!-- Bing points App Test Cases -->
+  </suite> <!-- Bing points Application Test Automation Test Suite -->
+</testng-results>
