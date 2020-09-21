@@ -1,31 +1,593 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="52" passed="52">
   <reporter-output>
   </reporter-output>
-  <suite name="Bing points Application Test Automation Test Suite" duration-ms="34460" started-at="2020-05-19T23:07:00 IST" finished-at="2020-05-19T23:07:34 IST">
+  <suite name="Default suite" duration-ms="266335" started-at="2020-09-16T16:07:04 IST" finished-at="2020-09-16T16:11:31 IST">
     <groups>
     </groups>
-    <test name="Bing points App Test Cases" duration-ms="34460" started-at="2020-05-19T23:07:00 IST" finished-at="2020-05-19T23:07:34 IST">
-      <class name="com.bing.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.bing.qa.testcases.LoginPageTest@2833cc44]" name="setup" is-config="true" duration-ms="13009" started-at="2020-05-19T23:07:14 IST" finished-at="2020-05-19T23:07:27 IST">
+    <test name="Default test" duration-ms="266335" started-at="2020-09-16T16:07:04 IST" finished-at="2020-09-16T16:11:31 IST">
+      <class name="com.bing.qa.testcases.SearchPageTest2">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="setup" is-config="true" duration-ms="83381" started-at="2020-09-16T16:05:41 IST" finished-at="2020-09-16T16:07:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.bing.qa.testcases.LoginPageTest@2833cc44]" name="LoginTest" duration-ms="7508" started-at="2020-05-19T23:07:27 IST" finished-at="2020-05-19T23:07:34 IST">
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5066" started-at="2020-09-16T16:07:05 IST" data-provider="getTestData" finished-at="2020-09-16T16:07:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Beagle]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTest -->
-      </class> <!-- com.bing.qa.testcases.LoginPageTest -->
-      <class name="com.bing.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.bing.qa.testcases.HomePageTest@3712b94]" name="setup" is-config="true" duration-ms="10780" started-at="2020-05-19T23:07:00 IST" finished-at="2020-05-19T23:07:11 IST">
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5139" started-at="2020-09-16T16:07:10 IST" data-provider="getTestData" finished-at="2020-09-16T16:07:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dachshund]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="HomePage_Test()[pri:1, instance:com.bing.qa.testcases.HomePageTest@3712b94]" name="HomePage_Test" duration-ms="3129" started-at="2020-05-19T23:07:11 IST" finished-at="2020-05-19T23:07:14 IST">
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5094" started-at="2020-09-16T16:07:15 IST" data-provider="getTestData" finished-at="2020-09-16T16:07:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Corgi]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HomePage_Test -->
-      </class> <!-- com.bing.qa.testcases.HomePageTest -->
-    </test> <!-- Bing points App Test Cases -->
-  </suite> <!-- Bing points Application Test Automation Test Suite -->
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5117" started-at="2020-09-16T16:07:20 IST" data-provider="getTestData" finished-at="2020-09-16T16:07:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Golden Retriever]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5103" started-at="2020-09-16T16:07:25 IST" data-provider="getTestData" finished-at="2020-09-16T16:07:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Labrador]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5114" started-at="2020-09-16T16:07:30 IST" data-provider="getTestData" finished-at="2020-09-16T16:07:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FrenchBullDog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5105" started-at="2020-09-16T16:07:36 IST" data-provider="getTestData" finished-at="2020-09-16T16:07:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BullDog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5115" started-at="2020-09-16T16:07:41 IST" data-provider="getTestData" finished-at="2020-09-16T16:07:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pug]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5172" started-at="2020-09-16T16:07:46 IST" data-provider="getTestData" finished-at="2020-09-16T16:07:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Husky]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5127" started-at="2020-09-16T16:07:51 IST" data-provider="getTestData" finished-at="2020-09-16T16:07:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[St Bernard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5107" started-at="2020-09-16T16:07:56 IST" data-provider="getTestData" finished-at="2020-09-16T16:08:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dalmation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5107" started-at="2020-09-16T16:08:01 IST" data-provider="getTestData" finished-at="2020-09-16T16:08:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chow Chow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5141" started-at="2020-09-16T16:08:06 IST" data-provider="getTestData" finished-at="2020-09-16T16:08:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samoyed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5105" started-at="2020-09-16T16:08:11 IST" data-provider="getTestData" finished-at="2020-09-16T16:08:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dobermann]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5119" started-at="2020-09-16T16:08:17 IST" data-provider="getTestData" finished-at="2020-09-16T16:08:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[German Shepherd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5130" started-at="2020-09-16T16:08:22 IST" data-provider="getTestData" finished-at="2020-09-16T16:08:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Border Collie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5089" started-at="2020-09-16T16:08:27 IST" data-provider="getTestData" finished-at="2020-09-16T16:08:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rottweiler]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5111" started-at="2020-09-16T16:08:32 IST" data-provider="getTestData" finished-at="2020-09-16T16:08:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Komondor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5125" started-at="2020-09-16T16:08:37 IST" data-provider="getTestData" finished-at="2020-09-16T16:08:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pomeranian]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5089" started-at="2020-09-16T16:08:42 IST" data-provider="getTestData" finished-at="2020-09-16T16:08:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pit Bull]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5095" started-at="2020-09-16T16:08:47 IST" data-provider="getTestData" finished-at="2020-09-16T16:08:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Boston Terrier]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5114" started-at="2020-09-16T16:08:52 IST" data-provider="getTestData" finished-at="2020-09-16T16:08:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chihuahua]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5087" started-at="2020-09-16T16:08:57 IST" data-provider="getTestData" finished-at="2020-09-16T16:09:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Boxer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5120" started-at="2020-09-16T16:09:03 IST" data-provider="getTestData" finished-at="2020-09-16T16:09:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Australian Shepherd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5113" started-at="2020-09-16T16:09:08 IST" data-provider="getTestData" finished-at="2020-09-16T16:09:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Poodle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5097" started-at="2020-09-16T16:09:13 IST" data-provider="getTestData" finished-at="2020-09-16T16:09:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dingo]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5110" started-at="2020-09-16T16:09:18 IST" data-provider="getTestData" finished-at="2020-09-16T16:09:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Great Dane]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5114" started-at="2020-09-16T16:09:23 IST" data-provider="getTestData" finished-at="2020-09-16T16:09:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cavalier King Charles Spaniel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5118" started-at="2020-09-16T16:09:28 IST" data-provider="getTestData" finished-at="2020-09-16T16:09:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jack Russell Terrier]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5125" started-at="2020-09-16T16:09:33 IST" data-provider="getTestData" finished-at="2020-09-16T16:09:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maltese]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5146" started-at="2020-09-16T16:09:38 IST" data-provider="getTestData" finished-at="2020-09-16T16:09:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shiba Inu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5108" started-at="2020-09-16T16:09:44 IST" data-provider="getTestData" finished-at="2020-09-16T16:09:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bichon Frise]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5107" started-at="2020-09-16T16:09:49 IST" data-provider="getTestData" finished-at="2020-09-16T16:09:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cane Corso]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5105" started-at="2020-09-16T16:09:54 IST" data-provider="getTestData" finished-at="2020-09-16T16:09:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Havanese]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5077" started-at="2020-09-16T16:09:59 IST" data-provider="getTestData" finished-at="2020-09-16T16:10:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akita]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5089" started-at="2020-09-16T16:10:04 IST" data-provider="getTestData" finished-at="2020-09-16T16:10:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[English Mastiff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5103" started-at="2020-09-16T16:10:09 IST" data-provider="getTestData" finished-at="2020-09-16T16:10:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Basset Hound]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5118" started-at="2020-09-16T16:10:14 IST" data-provider="getTestData" finished-at="2020-09-16T16:10:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bullmastiff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5139" started-at="2020-09-16T16:10:19 IST" data-provider="getTestData" finished-at="2020-09-16T16:10:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rhodesian Ridgeback]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5106" started-at="2020-09-16T16:10:24 IST" data-provider="getTestData" finished-at="2020-09-16T16:10:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bull Terrier]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5098" started-at="2020-09-16T16:10:29 IST" data-provider="getTestData" finished-at="2020-09-16T16:10:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alaskan Malamute]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5102" started-at="2020-09-16T16:10:35 IST" data-provider="getTestData" finished-at="2020-09-16T16:10:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pariah dog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5096" started-at="2020-09-16T16:10:40 IST" data-provider="getTestData" finished-at="2020-09-16T16:10:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Indian Spitz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5114" started-at="2020-09-16T16:10:45 IST" data-provider="getTestData" finished-at="2020-09-16T16:10:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mudhol Hound]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5084" started-at="2020-09-16T16:10:50 IST" data-provider="getTestData" finished-at="2020-09-16T16:10:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rajapalayam dog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5131" started-at="2020-09-16T16:10:55 IST" data-provider="getTestData" finished-at="2020-09-16T16:11:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kanni]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5118" started-at="2020-09-16T16:11:00 IST" data-provider="getTestData" finished-at="2020-09-16T16:11:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gaddi Kutta]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5084" started-at="2020-09-16T16:11:05 IST" data-provider="getTestData" finished-at="2020-09-16T16:11:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Combai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5115" started-at="2020-09-16T16:11:10 IST" data-provider="getTestData" finished-at="2020-09-16T16:11:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rampur Greyhound]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5096" started-at="2020-09-16T16:11:15 IST" data-provider="getTestData" finished-at="2020-09-16T16:11:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kumaon Mastiff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5089" started-at="2020-09-16T16:11:21 IST" data-provider="getTestData" finished-at="2020-09-16T16:11:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pandikona]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="searchTest" duration-ms="5166" started-at="2020-09-16T16:11:26 IST" data-provider="getTestData" finished-at="2020-09-16T16:11:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New Guinea singing dog]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bing.qa.testcases.SearchPageTest2@33c7e1bb]" name="tearDown" is-config="true" duration-ms="1257" started-at="2020-09-16T16:11:31 IST" finished-at="2020-09-16T16:11:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bing.qa.testcases.SearchPageTest2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

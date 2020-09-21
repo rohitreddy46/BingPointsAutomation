@@ -8,17 +8,22 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.bing.qa.base.TestBase;
-import com.bing.qa.util.TestUtil;
+
 
 public class HomePage extends TestBase {
 	
 	//page factory - Object Repository
 	
-	@FindBy(id = "id_l")
+	@FindBy(xpath = "//*[@id = 'id_l']")
 	WebElement signin;
+	//(id = "id_l")
 	
 	@FindBy(xpath = "//*[@id = 'b_logo']")
 	WebElement binglogo;
+	
+	@FindBy(xpath = "//input[@id = 'sb_form_q']")
+	WebElement searchbox;
+	
 	
 	//Constructor to initialize web elements of this webpage
 	
@@ -40,9 +45,22 @@ public class HomePage extends TestBase {
 	
 	public LoginPage signin() {
 		
+		WebDriverWait wait = new WebDriverWait(driver, 20);
+		wait.until(ExpectedConditions.visibilityOf(signin));
 		signin.sendKeys(Keys.ENTER);
 		return new LoginPage();
 
+	}
+	
+	public SearchPage search() {
+		
+		WebDriverWait wait = new WebDriverWait(driver, 20);
+		wait.until(ExpectedConditions.visibilityOf(searchbox));
+		searchbox.sendKeys("'");
+		searchbox.sendKeys(Keys.ENTER);
+		return new SearchPage();
+		
+		
 	}
 	
 

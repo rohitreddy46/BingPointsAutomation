@@ -28,6 +28,18 @@ public class LoginPage extends TestBase{
 	@FindBy(xpath = "//input[@value = 'Sign in']")
 	WebElement sign_in;
 	
+	//Stay sign in confirmation text
+	@FindBy(xpath = "//div[@class = 'row text-title']")
+	WebElement stay_signin;
+	
+	//Dont show this again check box
+	@FindBy(xpath = "//input[@name = 'DontShowAgain']")
+	WebElement checkbox;
+	
+	//Yes button
+	@FindBy(xpath = "//input[@id = 'idSIButton9']")
+	WebElement yesbutton;
+	
 	//Constructor to initialize the web elements or class variables
 	
 	public LoginPage() {
@@ -41,7 +53,7 @@ public class LoginPage extends TestBase{
 	//email sign in
 	public void emailSignin(String e) {
 		//explicit wait - to wait for the Next button to be clickable
-		WebDriverWait wait = new WebDriverWait(driver, 6);
+		WebDriverWait wait = new WebDriverWait(driver, 20);
 		wait.until(ExpectedConditions.visibilityOf(email));
 		email.sendKeys(e);
 		//explicit wait - to wait for the Next button to be clickable
@@ -52,12 +64,24 @@ public class LoginPage extends TestBase{
 	// password entry
 	public void passwordSignin(String p) {
 		//explicit wait - to wait for the Next button to be clickable
-		WebDriverWait wait = new WebDriverWait(driver, 6);
+		WebDriverWait wait = new WebDriverWait(driver, 20);
 		wait.until(ExpectedConditions.visibilityOf(password));
 		password.sendKeys(p);
 		//explicit wait - to wait for the signin button to be clickable
 		wait.until(ExpectedConditions.visibilityOf(sign_in));
 		sign_in.click();
+	}
+	
+	public void staySignin() {
+		
+			System.out.println("stay sign in displayed");
+			WebDriverWait wait = new WebDriverWait(driver, 20);
+			wait.until(ExpectedConditions.visibilityOf(yesbutton));
+			checkbox.click();
+			yesbutton.click();
+		
+		
+		
 	}
 	
 	

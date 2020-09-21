@@ -23,7 +23,7 @@ public class TestBase {
 		//code for reading file 
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("\\Users\\rohit\\eclipse-workspace\\BingPointsAutomation\\src\\main\\java\\com\\bing\\qa\\config\\config.properties");
+			FileInputStream ip = new FileInputStream("C:\\Users\\rohit\\git\\BingPointsAutomation\\BingPointsAutomation\\src\\main\\java\\com\\bing\\qa\\config\\config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -45,9 +45,9 @@ public class TestBase {
 		}
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
 		driver.get(prop.getProperty("url"));
-		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		
 	}
 

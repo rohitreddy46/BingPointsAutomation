@@ -38,6 +38,7 @@ public class LoginPageTest extends TestBase{
 		loginpage.emailSignin(prop.getProperty("email"));
 		Thread.sleep(3000);
 		loginpage.passwordSignin(prop.getProperty("password"));
+		loginpage.staySignin();
 	}
 	
 	

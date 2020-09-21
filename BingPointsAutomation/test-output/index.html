@@ -5,7 +5,8 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
     <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -23,6 +24,7 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
       <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
@@ -37,8 +39,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Bing_points_Application_Test_Automation_Test_Suite">
-              <span class="suite-name border-passed">Bing points Application Test Automation Test Suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Bing_points_Application_Test_Automation_Test_Suite">
-                    <span>C:\Users\rohit\eclipse-workspace\BingPointsAutomation\src\main\resources\testng_Bing.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\rohit\AppData\Local\Temp\testng-eclipse--1535583283\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Bing_points_Application_Test_Automation_Test_Suite">
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Bing_points_Application_Test_Automation_Test_Suite">
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Bing_points_Application_Test_Automation_Test_Suite">
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Bing_points_Application_Test_Automation_Test_Suite">
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Bing_points_Application_Test_Automation_Test_Suite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Bing_points_Application_Test_Automation_Test_Suite">
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,26 +93,276 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">52 methods,   52 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Bing_points_Application_Test_Automation_Test_Suite" class="hide-methods passed suite-Bing_points_Application_Test_Automation_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Bing_points_Application_Test_Automation_Test_Suite -->
-                      <a href="#" panel-name="suite-Bing_points_Application_Test_Automation_Test_Suite" class="show-methods passed suite-Bing_points_Application_Test_Automation_Test_Suite"> (show)</a> <!-- show-methods passed suite-Bing_points_Application_Test_Automation_Test_Suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content passed suite-Bing_points_Application_Test_Automation_Test_Suite">
+                    <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Bing_points_Application_Test_Automation_Test_Suite" title="com.bing.qa.testcases.HomePageTest" hash-for-method="HomePage_Test">HomePage_Test</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Maltese)">searchTest(Maltese)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Bing_points_Application_Test_Automation_Test_Suite" title="com.bing.qa.testcases.LoginPageTest" hash-for-method="LoginTest">LoginTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(BullDog)">searchTest(BullDog)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Bing_points_Application_Test_Automation_Test_Suite -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Pandikona)">searchTest(Pandikona)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Shiba Inu)">searchTest(Shiba Inu)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Dingo)">searchTest(Dingo)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Gaddi Kutta)">searchTest(Gaddi Kutta)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Labrador)">searchTest(Labrador)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Havanese)">searchTest(Havanese)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Combai)">searchTest(Combai)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Mudhol Hound)">searchTest(Mudhol Hound)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(FrenchBullDog)">searchTest(FrenchBullDog)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Rhodesian Ridgeback)">searchTest(Rhodesian Ridgeback)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Dobermann)">searchTest(Dobermann)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Great Dane)">searchTest(Great Dane)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(New Guinea singing dog)">searchTest(New Guinea singing dog)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(German Shepherd)">searchTest(German Shepherd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Boston Terrier)">searchTest(Boston Terrier)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(St Bernard)">searchTest(St Bernard)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Beagle)">searchTest(Beagle)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Husky)">searchTest(Husky)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Dachshund)">searchTest(Dachshund)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Golden Retriever)">searchTest(Golden Retriever)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Indian Spitz)">searchTest(Indian Spitz)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Corgi)">searchTest(Corgi)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Alaskan Malamute)">searchTest(Alaskan Malamute)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Australian Shepherd)">searchTest(Australian Shepherd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Bullmastiff)">searchTest(Bullmastiff)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Komondor)">searchTest(Komondor)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Border Collie)">searchTest(Border Collie)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Chow Chow)">searchTest(Chow Chow)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Cane Corso)">searchTest(Cane Corso)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Boxer)">searchTest(Boxer)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Dalmation)">searchTest(Dalmation)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(English Mastiff)">searchTest(English Mastiff)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Kumaon Mastiff)">searchTest(Kumaon Mastiff)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Bull Terrier)">searchTest(Bull Terrier)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Jack Russell Terrier)">searchTest(Jack Russell Terrier)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Cavalier King Charles Spaniel)">searchTest(Cavalier King Charles Spaniel)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Akita)">searchTest(Akita)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Rottweiler)">searchTest(Rottweiler)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Kanni)">searchTest(Kanni)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(pariah dog)">searchTest(pariah dog)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Chihuahua)">searchTest(Chihuahua)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Samoyed)">searchTest(Samoyed)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Pug)">searchTest(Pug)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Pit Bull)">searchTest(Pit Bull)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Rajapalayam dog)">searchTest(Rajapalayam dog)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Poodle)">searchTest(Poodle)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Bichon Frise)">searchTest(Bichon Frise)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Rampur Greyhound)">searchTest(Rampur Greyhound)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Basset Hound)">searchTest(Basset Hound)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.bing.qa.testcases.SearchPageTest2" hash-for-method="searchTest(Pomeranian)">searchTest(Pomeranian)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -121,155 +373,943 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Bing_points_Application_Test_Automation_Test_Suite" class="panel Bing_points_Application_Test_Automation_Test_Suite">
-          <div class="suite-Bing_points_Application_Test_Automation_Test_Suite-class-passed">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.bing.qa.testcases.HomePageTest</span>
+              <span class="class-name">com.bing.qa.testcases.SearchPageTest2</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="HomePage_Test">
-                  </a> <!-- HomePage_Test -->
-                  <span class="method-name">HomePage_Test</span>
+                  <a name="searchTest(Maltese)">
+                  </a> <!-- searchTest(Maltese) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Maltese)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Bing_points_Application_Test_Automation_Test_Suite-class-passed -->
-          <div class="suite-Bing_points_Application_Test_Automation_Test_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.bing.qa.testcases.LoginPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="LoginTest">
-                  </a> <!-- LoginTest -->
-                  <span class="method-name">LoginTest</span>
+                  <a name="searchTest(BullDog)">
+                  </a> <!-- searchTest(BullDog) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(BullDog)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Pandikona)">
+                  </a> <!-- searchTest(Pandikona) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Pandikona)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Shiba Inu)">
+                  </a> <!-- searchTest(Shiba Inu) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Shiba Inu)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Dingo)">
+                  </a> <!-- searchTest(Dingo) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Dingo)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Gaddi Kutta)">
+                  </a> <!-- searchTest(Gaddi Kutta) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Gaddi Kutta)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Labrador)">
+                  </a> <!-- searchTest(Labrador) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Labrador)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Havanese)">
+                  </a> <!-- searchTest(Havanese) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Havanese)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Combai)">
+                  </a> <!-- searchTest(Combai) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Combai)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Mudhol Hound)">
+                  </a> <!-- searchTest(Mudhol Hound) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Mudhol Hound)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(FrenchBullDog)">
+                  </a> <!-- searchTest(FrenchBullDog) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(FrenchBullDog)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Rhodesian Ridgeback)">
+                  </a> <!-- searchTest(Rhodesian Ridgeback) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Rhodesian Ridgeback)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Dobermann)">
+                  </a> <!-- searchTest(Dobermann) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Dobermann)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Great Dane)">
+                  </a> <!-- searchTest(Great Dane) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Great Dane)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(New Guinea singing dog)">
+                  </a> <!-- searchTest(New Guinea singing dog) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(New Guinea singing dog)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(German Shepherd)">
+                  </a> <!-- searchTest(German Shepherd) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(German Shepherd)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Boston Terrier)">
+                  </a> <!-- searchTest(Boston Terrier) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Boston Terrier)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(St Bernard)">
+                  </a> <!-- searchTest(St Bernard) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(St Bernard)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Beagle)">
+                  </a> <!-- searchTest(Beagle) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Beagle)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Husky)">
+                  </a> <!-- searchTest(Husky) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Husky)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Dachshund)">
+                  </a> <!-- searchTest(Dachshund) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Dachshund)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Golden Retriever)">
+                  </a> <!-- searchTest(Golden Retriever) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Golden Retriever)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Indian Spitz)">
+                  </a> <!-- searchTest(Indian Spitz) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Indian Spitz)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Corgi)">
+                  </a> <!-- searchTest(Corgi) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Corgi)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Alaskan Malamute)">
+                  </a> <!-- searchTest(Alaskan Malamute) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Alaskan Malamute)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Australian Shepherd)">
+                  </a> <!-- searchTest(Australian Shepherd) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Australian Shepherd)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Bullmastiff)">
+                  </a> <!-- searchTest(Bullmastiff) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Bullmastiff)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Komondor)">
+                  </a> <!-- searchTest(Komondor) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Komondor)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Border Collie)">
+                  </a> <!-- searchTest(Border Collie) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Border Collie)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Chow Chow)">
+                  </a> <!-- searchTest(Chow Chow) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Chow Chow)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Cane Corso)">
+                  </a> <!-- searchTest(Cane Corso) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Cane Corso)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Boxer)">
+                  </a> <!-- searchTest(Boxer) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Boxer)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Dalmation)">
+                  </a> <!-- searchTest(Dalmation) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Dalmation)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(English Mastiff)">
+                  </a> <!-- searchTest(English Mastiff) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(English Mastiff)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Kumaon Mastiff)">
+                  </a> <!-- searchTest(Kumaon Mastiff) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Kumaon Mastiff)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Bull Terrier)">
+                  </a> <!-- searchTest(Bull Terrier) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Bull Terrier)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Jack Russell Terrier)">
+                  </a> <!-- searchTest(Jack Russell Terrier) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Jack Russell Terrier)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Cavalier King Charles Spaniel)">
+                  </a> <!-- searchTest(Cavalier King Charles Spaniel) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Cavalier King Charles Spaniel)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Akita)">
+                  </a> <!-- searchTest(Akita) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Akita)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Rottweiler)">
+                  </a> <!-- searchTest(Rottweiler) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Rottweiler)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Kanni)">
+                  </a> <!-- searchTest(Kanni) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Kanni)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(pariah dog)">
+                  </a> <!-- searchTest(pariah dog) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(pariah dog)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Chihuahua)">
+                  </a> <!-- searchTest(Chihuahua) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Chihuahua)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Samoyed)">
+                  </a> <!-- searchTest(Samoyed) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Samoyed)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Pug)">
+                  </a> <!-- searchTest(Pug) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Pug)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Pit Bull)">
+                  </a> <!-- searchTest(Pit Bull) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Pit Bull)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Rajapalayam dog)">
+                  </a> <!-- searchTest(Rajapalayam dog) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Rajapalayam dog)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Poodle)">
+                  </a> <!-- searchTest(Poodle) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Poodle)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Bichon Frise)">
+                  </a> <!-- searchTest(Bichon Frise) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Bichon Frise)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Rampur Greyhound)">
+                  </a> <!-- searchTest(Rampur Greyhound) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Rampur Greyhound)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Basset Hound)">
+                  </a> <!-- searchTest(Basset Hound) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Basset Hound)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchTest(Pomeranian)">
+                  </a> <!-- searchTest(Pomeranian) -->
+                  <span class="method-name">searchTest</span>
+                  <span class="parameters">(Pomeranian)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Bing_points_Application_Test_Automation_Test_Suite-class-passed -->
-        </div> <!-- panel Bing_points_Application_Test_Automation_Test_Suite -->
-        <div panel-name="test-xml-Bing_points_Application_Test_Automation_Test_Suite" class="panel">
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\rohit\eclipse-workspace\BingPointsAutomation\src\main\resources\testng_Bing.xml</span>
+            <span class="header-content">C:\Users\rohit\AppData\Local\Temp\testng-eclipse--1535583283\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Bing points Application Test Automation Test Suite&quot;&gt;
-  &lt;listeners&gt;
-    &lt;listener class-name=&quot;com.qa.ExtentReportListener.ExtentReporterNG&quot;/&gt;
-  &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Bing points App Test Cases&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.bing.qa.testcases.HomePageTest&quot;/&gt;
-      &lt;class name=&quot;com.bing.qa.testcases.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.bing.qa.testcases.SearchPageTest2&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Bing points App Test Cases --&gt;
-&lt;/suite&gt; &lt;!-- Bing points Application Test Automation Test Suite --&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Bing_points_Application_Test_Automation_Test_Suite" class="panel">
+        <div panel-name="testlist-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Bing points Application Test Automation Test Suite</span>
+            <span class="header-content">Tests for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Bing points App Test Cases (2 classes)</span>
+                <span class="test-name">Default test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Bing_points_Application_Test_Automation_Test_Suite" class="panel">
+        <div panel-name="group-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Bing points Application Test Automation Test Suite</span>
+            <span class="header-content">Groups for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Bing_points_Application_Test_Automation_Test_Suite" class="panel">
+        <div panel-name="times-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Bing points Application Test Automation Test Suite</span>
+            <span class="header-content">Times for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Bing_points_Application_Test_Automation_Test_Suite');
-function tableData_Bing_points_Application_Test_Automation_Test_Suite() {
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(52);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'LoginTest')
-data.setCell(0, 2, 'com.bing.qa.testcases.LoginPageTest')
-data.setCell(0, 3, 7508);
+data.setCell(0, 1, 'searchTest')
+data.setCell(0, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(0, 3, 5172);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'HomePage_Test')
-data.setCell(1, 2, 'com.bing.qa.testcases.HomePageTest')
-data.setCell(1, 3, 3129);
-window.suiteTableData['Bing_points_Application_Test_Automation_Test_Suite']= { tableData: data, tableDiv: 'times-div-Bing_points_Application_Test_Automation_Test_Suite'}
+data.setCell(1, 1, 'searchTest')
+data.setCell(1, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(1, 3, 5166);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'searchTest')
+data.setCell(2, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(2, 3, 5146);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'searchTest')
+data.setCell(3, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(3, 3, 5141);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'searchTest')
+data.setCell(4, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(4, 3, 5139);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'searchTest')
+data.setCell(5, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(5, 3, 5139);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'searchTest')
+data.setCell(6, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(6, 3, 5131);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'searchTest')
+data.setCell(7, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(7, 3, 5130);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'searchTest')
+data.setCell(8, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(8, 3, 5127);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'searchTest')
+data.setCell(9, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(9, 3, 5125);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'searchTest')
+data.setCell(10, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(10, 3, 5125);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'searchTest')
+data.setCell(11, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(11, 3, 5120);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'searchTest')
+data.setCell(12, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(12, 3, 5119);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'searchTest')
+data.setCell(13, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(13, 3, 5118);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'searchTest')
+data.setCell(14, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(14, 3, 5118);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'searchTest')
+data.setCell(15, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(15, 3, 5118);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'searchTest')
+data.setCell(16, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(16, 3, 5117);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'searchTest')
+data.setCell(17, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(17, 3, 5115);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'searchTest')
+data.setCell(18, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(18, 3, 5115);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'searchTest')
+data.setCell(19, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(19, 3, 5114);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'searchTest')
+data.setCell(20, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(20, 3, 5114);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'searchTest')
+data.setCell(21, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(21, 3, 5114);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'searchTest')
+data.setCell(22, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(22, 3, 5114);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'searchTest')
+data.setCell(23, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(23, 3, 5113);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'searchTest')
+data.setCell(24, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(24, 3, 5111);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'searchTest')
+data.setCell(25, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(25, 3, 5110);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'searchTest')
+data.setCell(26, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(26, 3, 5108);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'searchTest')
+data.setCell(27, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(27, 3, 5107);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'searchTest')
+data.setCell(28, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(28, 3, 5107);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'searchTest')
+data.setCell(29, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(29, 3, 5107);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'searchTest')
+data.setCell(30, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(30, 3, 5106);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'searchTest')
+data.setCell(31, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(31, 3, 5105);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'searchTest')
+data.setCell(32, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(32, 3, 5105);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'searchTest')
+data.setCell(33, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(33, 3, 5105);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'searchTest')
+data.setCell(34, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(34, 3, 5103);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'searchTest')
+data.setCell(35, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(35, 3, 5103);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'searchTest')
+data.setCell(36, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(36, 3, 5102);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'searchTest')
+data.setCell(37, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(37, 3, 5098);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'searchTest')
+data.setCell(38, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(38, 3, 5097);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'searchTest')
+data.setCell(39, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(39, 3, 5096);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'searchTest')
+data.setCell(40, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(40, 3, 5096);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'searchTest')
+data.setCell(41, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(41, 3, 5095);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'searchTest')
+data.setCell(42, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(42, 3, 5094);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'searchTest')
+data.setCell(43, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(43, 3, 5089);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'searchTest')
+data.setCell(44, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(44, 3, 5089);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'searchTest')
+data.setCell(45, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(45, 3, 5089);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'searchTest')
+data.setCell(46, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(46, 3, 5089);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'searchTest')
+data.setCell(47, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(47, 3, 5087);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'searchTest')
+data.setCell(48, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(48, 3, 5084);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'searchTest')
+data.setCell(49, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(49, 3, 5084);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'searchTest')
+data.setCell(50, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(50, 3, 5077);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'searchTest')
+data.setCell(51, 2, 'com.bing.qa.testcases.SearchPageTest2')
+data.setCell(51, 3, 5066);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
-              <div id="times-div-Bing_points_Application_Test_Automation_Test_Suite">
-              </div> <!-- times-div-Bing_points_Application_Test_Automation_Test_Suite -->
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Bing_points_Application_Test_Automation_Test_Suite" class="panel">
+        <div panel-name="reporter-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Bing points Application Test Automation Test Suite</span>
+            <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Bing_points_Application_Test_Automation_Test_Suite" class="panel">
+        <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Bing_points_Application_Test_Automation_Test_Suite" class="panel">
+        <div panel-name="chronological-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.bing.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
+              <div class="chronological-class-name">com.bing.qa.testcases.SearchPageTest2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
+              </div> <!-- configuration-suite before -->
               <div class="test-method">
-                <span class="method-name">HomePage_Test</span>
-                <span class="method-start">10781 ms</span>
+                <span class="method-name">searchTest(Beagle)</span>
+                <span class="method-start">83910 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.bing.qa.testcases.LoginPageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">13916 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">LoginTest</span>
-                <span class="method-start">26925 ms</span>
+                <span class="method-name">searchTest(Dachshund)</span>
+                <span class="method-start">88978 ms</span>
               </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Corgi)</span>
+                <span class="method-start">94118 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Golden Retriever)</span>
+                <span class="method-start">99213 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Labrador)</span>
+                <span class="method-start">104331 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(FrenchBullDog)</span>
+                <span class="method-start">109435 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(BullDog)</span>
+                <span class="method-start">114550 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Pug)</span>
+                <span class="method-start">119657 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Husky)</span>
+                <span class="method-start">124775 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(St Bernard)</span>
+                <span class="method-start">129949 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Dalmation)</span>
+                <span class="method-start">135077 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Chow Chow)</span>
+                <span class="method-start">140185 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Samoyed)</span>
+                <span class="method-start">145294 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Dobermann)</span>
+                <span class="method-start">150436 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(German Shepherd)</span>
+                <span class="method-start">155543 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Border Collie)</span>
+                <span class="method-start">160663 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Rottweiler)</span>
+                <span class="method-start">165793 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Komondor)</span>
+                <span class="method-start">170883 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Pomeranian)</span>
+                <span class="method-start">175995 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Pit Bull)</span>
+                <span class="method-start">181120 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Boston Terrier)</span>
+                <span class="method-start">186209 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Chihuahua)</span>
+                <span class="method-start">191305 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Boxer)</span>
+                <span class="method-start">196420 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Australian Shepherd)</span>
+                <span class="method-start">201508 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Poodle)</span>
+                <span class="method-start">206628 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Dingo)</span>
+                <span class="method-start">211741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Great Dane)</span>
+                <span class="method-start">216839 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Cavalier King Charles Spaniel)</span>
+                <span class="method-start">221949 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Jack Russell Terrier)</span>
+                <span class="method-start">227064 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Maltese)</span>
+                <span class="method-start">232182 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Shiba Inu)</span>
+                <span class="method-start">237309 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Bichon Frise)</span>
+                <span class="method-start">242456 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Cane Corso)</span>
+                <span class="method-start">247564 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Havanese)</span>
+                <span class="method-start">252672 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Akita)</span>
+                <span class="method-start">257777 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(English Mastiff)</span>
+                <span class="method-start">262854 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Basset Hound)</span>
+                <span class="method-start">267943 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Bullmastiff)</span>
+                <span class="method-start">273047 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Rhodesian Ridgeback)</span>
+                <span class="method-start">278166 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Bull Terrier)</span>
+                <span class="method-start">283306 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Alaskan Malamute)</span>
+                <span class="method-start">288413 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(pariah dog)</span>
+                <span class="method-start">293511 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Indian Spitz)</span>
+                <span class="method-start">298614 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Mudhol Hound)</span>
+                <span class="method-start">303711 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Rajapalayam dog)</span>
+                <span class="method-start">308825 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Kanni)</span>
+                <span class="method-start">313911 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Gaddi Kutta)</span>
+                <span class="method-start">319043 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Combai)</span>
+                <span class="method-start">324161 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Rampur Greyhound)</span>
+                <span class="method-start">329245 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Kumaon Mastiff)</span>
+                <span class="method-start">334361 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(Pandikona)</span>
+                <span class="method-start">339457 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchTest(New Guinea singing dog)</span>
+                <span class="method-start">344547 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">349742 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
 </html>
